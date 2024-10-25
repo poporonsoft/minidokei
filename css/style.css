@@ -2,56 +2,73 @@
 
 /* CSS Document */
 
-      * {
-        color: rgb(55, 53, 47);
-        font-family: メイリオ, Meiryo, Arial, sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
-        /* white-space: pre-wrap; 
-        /* ↑空白やタブがそのまま表示される。
-        行の幅がいっぱいになると、単語間で自動的に改行される。
-        明示的な改行が保持される */ 
-        /* word-break: break-word;  */
-        /* ↑長い単語を途中で強制的に改行するためのプロパティ */
-        
-      }
+html {
+  font-size: 100%;
+}
 
-      h1 {       
-        font-weight: bolder;
-        line-height: 2;
-        font-size: 1.7rem;
-      }
+body {
+  font-family: メイリオ, Meiryo, Arial, sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.7;
+  color:rgb(50, 50, 50);
+}
 
-      h2 {
-        font-weight: bold;
-        font-size: 1.3rem;
-        line-height: 2;
-        margin-top: 2rem;
-      }
+h1 {
+  font-size: 1.0em;
+  font-weight: normal;
+  line-height: 3;
+  text-align: center;
+}
 
-      p {
-        font-size: 1.0em;
-        line-height: 1.6;
-      }
+h2 {       
+  font-size: 1.7rem;
+  font-weight: bolder;
+  line-height: 2; 
+}
 
-      ul {
-        /* list-style-position: outside;
-        list-style-type: disc; */
-        padding-left: 1rem;
-        line-height: 1.6;
-      }
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 2rem;
+}
 
-      .content {
-        width: 85%;
-        padding-top: 1rem;
-      }
+p {
+  font-size: 1.0em;
+}
 
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items:  center;
-      }
+ul {
+  /* list-style-position: outside;
+  list-style-type: disc; */
+  padding-left: 1rem;
+}
 
-      @media screen and (min-width:768px) {
-        .content {
-          width: 600px;
-        }   
-      }
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  /* width: 85%;
+  padding-top: 1rem; */
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 7%;
+}
+
+.app_icon {
+  width: 80px;
+  height: 80px;
+}
+
+.logo {
+  /* display: flex; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  /* justify-content: center; */
+
+}
+
+/* @media screen and (min-width:768px) {
+  .content {
+    width: 600px;
+  }   
+} */
