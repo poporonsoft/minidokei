@@ -13,10 +13,11 @@ body {
 }
 
 h1 {
-  font-size: 1.0em;
-  font-weight: normal;
+  font-size: 1.3em;
+  /* font-weight: normal; */
   line-height: 3;
   text-align: center;
+  color:rgb(104, 86, 140);
 }
 
 h2 {       
